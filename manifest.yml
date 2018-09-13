@@ -1,0 +1,12 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.8.25
+  domain: mybluemix.net
+  env:
+    GOPACKAGENAME: mofigogin
+  host: mofigogin
+  instances: 1
+  memory: 256M
+  name: mofigogin
+  timeout: 180
+domain: mybluemix.net
+host: mofigogin
